@@ -26,7 +26,7 @@ class Test_room:
         BasePage().wait_element((By.CSS_SELECTOR,".ant-message-notice-content >div >span:nth-child(2)"))
         room_repeat = BasePage().find_element(".ant-message-notice-content >div >span:nth-child(2)")
         assert room_repeat.text == "存在重名房型，请重新填写提交"
-        
+
     @pytest.mark.quit
     def test_quit(self):
         BasePage().quit()
@@ -35,4 +35,4 @@ if __name__ == "__main__":
     pytest.main(["test_add_room.py","-s","-m=repeat_add_room","--alluredir","../Report/temp"])
     os.system("allure generate    ../Report/temp -o  ../Report/report --clean")
 
-    
+
