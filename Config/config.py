@@ -19,5 +19,3 @@ back_picture = r"D:\hotel_data\ziliao\2.png"
 #上传身份证半身照，根据js修改元素属性：
 js_half = "document.getElementsByClassName('ant-upload')[5].children[0].style.display='block';"
 half_picture = r"D:\hotel_data\ziliao\3.jpg"
-
-//test

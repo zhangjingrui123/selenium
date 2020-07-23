@@ -1,0 +1,125 @@
+{
+  "uid" : "63c0ed2f70efea76",
+  "name" : "test_login_fail",
+  "fullName" : "TestCases.test_login.TestLogin#test_login_fail",
+  "historyId" : "4071cb2364222de47e037a4728d1107e",
+  "time" : {
+    "start" : 1595489221800,
+    "stop" : 1595489222999,
+    "duration" : 1199
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1595489216279,
+      "stop" : 1595489221797,
+      "duration" : 5518
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1595489223002,
+      "stop" : 1595489223002,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录页面"
+  }, {
+    "name" : "tag",
+    "value" : "login_fail"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "123LAPTOP-C540DCLJ"
+  }, {
+    "name" : "thread",
+    "value" : "10628-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCases.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6a315085aed70cf2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595488878137,
+        "stop" : 1595488879404,
+        "duration" : 1267
+      }
+    }, {
+      "uid" : "8120f654abd7a14",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595488697367,
+        "stop" : 1595488698498,
+        "duration" : 1131
+      }
+    }, {
+      "uid" : "139de748147126d7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595486998184,
+        "stop" : 1595486999287,
+        "duration" : 1103
+      }
+    }, {
+      "uid" : "1d8d4fb903a13a4a",
+      "status" : "broken",
+      "statusDetails" : "selenium.common.exceptions.NoSuchElementException: Message: no such element: Unable to locate element: {\"method\":\"css selector\",\"selector\":\"[id=\"login_form_account\"]\"}\n  (Session info: chrome=84.0.4147.89)",
+      "time" : {
+        "start" : 1595486835029,
+        "stop" : 1595486835043,
+        "duration" : 14
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "login_fail" ]
+  },
+  "source" : "63c0ed2f70efea76.json",
+  "parameterValues" : [ ]
+}

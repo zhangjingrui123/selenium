@@ -1,0 +1,107 @@
+{
+  "uid" : "1e7318c62979695e",
+  "name" : "test_repeat_add_room",
+  "fullName" : "TestCases.test_add_room.Test_room#test_repeat_add_room",
+  "historyId" : "5371f1c09cf06a685e4ef2f6ca5239e3",
+  "time" : {
+    "start" : 1595495227392,
+    "stop" : 1595495231392,
+    "duration" : 4000
+  },
+  "status" : "broken",
+  "statusMessage" : "NameError: name 'By' is not defined",
+  "statusTrace" : "self = <test_add_room.Test_room object at 0x000001C186E7CCF8>\n\n    @pytest.mark.repeat_add_room\n    def test_repeat_add_room(self):\n        Room_Page().implicity_waiting(2)\n        Room_Page().add_rooms()\n        Room_Page().sliding_page()\n        BasePage().get_screen_shot(r\"..\\\\Picture\\\\room_screenshot\\\\room_repeat.png\")\n>       BasePage().wait_element((By.CSS_SELECTOR,\".ant-message-notice-content >div >span:nth-child(2)\"))\nE       NameError: name 'By' is not defined\n\ntest_add_room.py:25: NameError",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1595495220612,
+      "stop" : 1595495227387,
+      "duration" : 6775
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1595495231480,
+      "stop" : 1595495231480,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "添加房型"
+  }, {
+    "name" : "tag",
+    "value" : "repeat_add_room"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_add_room"
+  }, {
+    "name" : "subSuite",
+    "value" : "Test_room"
+  }, {
+    "name" : "host",
+    "value" : "123LAPTOP-C540DCLJ"
+  }, {
+    "name" : "thread",
+    "value" : "15016-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCases.test_add_room"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d9e11c147798c00c",
+      "status" : "broken",
+      "statusDetails" : "TypeError: get_screen_shot() missing 1 required positional argument: 'file_path'",
+      "time" : {
+        "start" : 1595494987798,
+        "stop" : 1595494991000,
+        "duration" : 3202
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ "repeat_add_room" ]
+  },
+  "source" : "1e7318c62979695e.json",
+  "parameterValues" : [ ]
+}

@@ -1,0 +1,90 @@
+{
+  "uid" : "73def53e1285aee7",
+  "name" : "test_login_success",
+  "fullName" : "TestCases.test_login.TestLogin#test_login_success",
+  "historyId" : "586d0bdeba7311a18258d323abcb9f72",
+  "time" : {
+    "start" : 1595486833500,
+    "stop" : 1595486835020,
+    "duration" : 1520
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1595486828272,
+      "stop" : 1595486833465,
+      "duration" : 5193
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1595486835293,
+      "stop" : 1595486835293,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录页面"
+  }, {
+    "name" : "tag",
+    "value" : "login_success"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "123LAPTOP-C540DCLJ"
+  }, {
+    "name" : "thread",
+    "value" : "12872-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCases.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ "login_success" ]
+  },
+  "source" : "73def53e1285aee7.json",
+  "parameterValues" : [ ]
+}

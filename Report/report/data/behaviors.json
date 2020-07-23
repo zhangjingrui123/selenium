@@ -1,0 +1,52 @@
+{
+  "uid" : "b1a8273437954620fa374b796ffaacdd",
+  "name" : "behaviors",
+  "children" : [ {
+    "name" : "登录页面",
+    "children" : [ {
+      "name" : "test_login_fail",
+      "uid" : "63c0ed2f70efea76",
+      "parentUid" : "61bcda7215eb52afed47c0f6d8cd25a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595489221800,
+        "stop" : 1595489222999,
+        "duration" : 1199
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "test_login_success",
+      "uid" : "78cd051ed0448f55",
+      "parentUid" : "61bcda7215eb52afed47c0f6d8cd25a5",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595489344523,
+        "stop" : 1595489346093,
+        "duration" : 1570
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "61bcda7215eb52afed47c0f6d8cd25a5"
+  }, {
+    "name" : "添加房型",
+    "children" : [ {
+      "name" : "test_repeat_add_room",
+      "uid" : "1e7318c62979695e",
+      "parentUid" : "3ba19a3c139a64a02b6f8b3f9bc08704",
+      "status" : "broken",
+      "time" : {
+        "start" : 1595495227392,
+        "stop" : 1595495231392,
+        "duration" : 4000
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    } ],
+    "uid" : "3ba19a3c139a64a02b6f8b3f9bc08704"
+  } ]
+}

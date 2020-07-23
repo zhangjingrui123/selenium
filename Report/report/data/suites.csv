@@ -1,0 +1,4 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Thu Jul 23 15:29:04 CST 2020","Thu Jul 23 15:29:06 CST 2020","1570","TestCases","test_login","TestLogin","","","test_login_success",""
+"broken","Thu Jul 23 17:07:07 CST 2020","Thu Jul 23 17:07:11 CST 2020","4000","TestCases","test_add_room","Test_room","","","test_repeat_add_room",""
+"passed","Thu Jul 23 15:27:01 CST 2020","Thu Jul 23 15:27:02 CST 2020","1199","TestCases","test_login","TestLogin","","","test_login_fail",""

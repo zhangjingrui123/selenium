@@ -1,0 +1,31 @@
+[ {
+  "uid" : "78cd051ed0448f55",
+  "name" : "test_login_success",
+  "time" : {
+    "start" : 1595489344523,
+    "stop" : 1595489346093,
+    "duration" : 1570
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "1e7318c62979695e",
+  "name" : "test_repeat_add_room",
+  "time" : {
+    "start" : 1595495227392,
+    "stop" : 1595495231392,
+    "duration" : 4000
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "63c0ed2f70efea76",
+  "name" : "test_login_fail",
+  "time" : {
+    "start" : 1595489221800,
+    "stop" : 1595489222999,
+    "duration" : 1199
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]

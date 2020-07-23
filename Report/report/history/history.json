@@ -1,0 +1,60 @@
+{
+  "4071cb2364222de47e037a4728d1107e" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "63c0ed2f70efea76",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595489221800,
+        "stop" : 1595489222999,
+        "duration" : 1199
+      }
+    } ]
+  },
+  "5371f1c09cf06a685e4ef2f6ca5239e3" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 1,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1e7318c62979695e",
+      "status" : "broken",
+      "statusDetails" : "NameError: name 'By' is not defined",
+      "time" : {
+        "start" : 1595495227392,
+        "stop" : 1595495231392,
+        "duration" : 4000
+      }
+    } ]
+  },
+  "586d0bdeba7311a18258d323abcb9f72" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "78cd051ed0448f55",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595489344523,
+        "stop" : 1595489346093,
+        "duration" : 1570
+      }
+    } ]
+  }
+}

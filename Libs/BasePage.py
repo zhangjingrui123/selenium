@@ -53,7 +53,7 @@ class BasePage:
         # self.driver.back()
         # self.driver.title
         # self.driver.curent_url
-    def wait_element(self,locator,timeouts =1,polltime=0.5):       #定位元素方法
+    def wait_element(self,locator,timeouts =3,polltime=0.5):       #定位元素方法
         try:
             element = WebDriverWait(self.driver,timeouts,polltime).until(ec.presence_of_element_located(locator))
             return element
@@ -70,7 +70,7 @@ class BasePage:
         self.driver.implicitly_wait(seconds)
 
     def get_screen_shot(self,file_path):                             #截屏处理
-        return self.driver.get_screentshot_as_file(file_path)       
+        return self.driver.get_screenshot_as_file(file_path)       
     
     def switch_to_frame(self,ele):                                   #切换到iframe内嵌页面
         self.driver.switch_to_frame(ele)                             
@@ -97,7 +97,10 @@ class BasePage:
 
     def execute_script(self,js):
         self.driver.execute_script(js)
-        
+    
+    def find_element(self,locator):
+        return self.driver.find_element_by_css_selector(locator)
+
     def quit(self):                                                       #退出浏览器
         self.driver.quit()  
 

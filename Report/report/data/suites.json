@@ -1,0 +1,64 @@
+{
+  "uid" : "98d3104e051c652961429bf95fa0b5d6",
+  "name" : "suites",
+  "children" : [ {
+    "name" : "TestCases",
+    "children" : [ {
+      "name" : "test_login",
+      "children" : [ {
+        "name" : "TestLogin",
+        "children" : [ {
+          "name" : "test_login_fail",
+          "uid" : "63c0ed2f70efea76",
+          "parentUid" : "156334d8d56ad3e60f17bab8a0cb7a59",
+          "status" : "passed",
+          "time" : {
+            "start" : 1595489221800,
+            "stop" : 1595489222999,
+            "duration" : 1199
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        }, {
+          "name" : "test_login_success",
+          "uid" : "78cd051ed0448f55",
+          "parentUid" : "156334d8d56ad3e60f17bab8a0cb7a59",
+          "status" : "passed",
+          "time" : {
+            "start" : 1595489344523,
+            "stop" : 1595489346093,
+            "duration" : 1570
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "156334d8d56ad3e60f17bab8a0cb7a59"
+      } ],
+      "uid" : "ee33cb4c057a9d7ca1eec0eaa23a4bee"
+    }, {
+      "name" : "test_add_room",
+      "children" : [ {
+        "name" : "Test_room",
+        "children" : [ {
+          "name" : "test_repeat_add_room",
+          "uid" : "1e7318c62979695e",
+          "parentUid" : "f1e2fa23051a3c992d2243f6059375d7",
+          "status" : "broken",
+          "time" : {
+            "start" : 1595495227392,
+            "stop" : 1595495231392,
+            "duration" : 4000
+          },
+          "flaky" : false,
+          "newFailed" : false,
+          "parameters" : [ ]
+        } ],
+        "uid" : "f1e2fa23051a3c992d2243f6059375d7"
+      } ],
+      "uid" : "085f1023e32620ba456d4931f3f2a948"
+    } ],
+    "uid" : "0408d924bc3d43de55080f45620fd22e"
+  } ]
+}

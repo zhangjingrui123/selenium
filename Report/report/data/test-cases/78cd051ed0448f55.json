@@ -1,0 +1,100 @@
+{
+  "uid" : "78cd051ed0448f55",
+  "name" : "test_login_success",
+  "fullName" : "TestCases.test_login.TestLogin#test_login_success",
+  "historyId" : "586d0bdeba7311a18258d323abcb9f72",
+  "time" : {
+    "start" : 1595489344523,
+    "stop" : 1595489346093,
+    "duration" : 1570
+  },
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ {
+    "name" : "_Class__pytest_setup_class",
+    "time" : {
+      "start" : 1595489337173,
+      "stop" : 1595489344518,
+      "duration" : 7345
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "afterStages" : [ {
+    "name" : "_Class__pytest_setup_class::0",
+    "time" : {
+      "start" : 1595489346096,
+      "stop" : 1595489346096,
+      "duration" : 0
+    },
+    "status" : "passed",
+    "steps" : [ ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "attachmentsCount" : 0,
+    "shouldDisplayMessage" : false,
+    "stepsCount" : 0,
+    "hasContent" : false
+  } ],
+  "labels" : [ {
+    "name" : "feature",
+    "value" : "登录页面"
+  }, {
+    "name" : "tag",
+    "value" : "login_success"
+  }, {
+    "name" : "parentSuite",
+    "value" : "TestCases"
+  }, {
+    "name" : "suite",
+    "value" : "test_login"
+  }, {
+    "name" : "subSuite",
+    "value" : "TestLogin"
+  }, {
+    "name" : "host",
+    "value" : "123LAPTOP-C540DCLJ"
+  }, {
+    "name" : "thread",
+    "value" : "10080-MainThread"
+  }, {
+    "name" : "framework",
+    "value" : "pytest"
+  }, {
+    "name" : "language",
+    "value" : "cpython3"
+  }, {
+    "name" : "package",
+    "value" : "TestCases.test_login"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure2"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "73def53e1285aee7",
+      "status" : "passed",
+      "time" : {
+        "start" : 1595486833500,
+        "stop" : 1595486835020,
+        "duration" : 1520
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ "login_success" ]
+  },
+  "source" : "78cd051ed0448f55.json",
+  "parameterValues" : [ ]
+}

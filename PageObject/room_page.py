@@ -3,19 +3,12 @@
 '''
 from selenium.webdriver.common.by import By
 import os,sys,time
-# sys.path.append(os.getcwd())
 sys.path.append("..")
-from login_page import LoginPage
 from Libs.BasePage import BasePage
 from Config.config import picture_path,account,password,js
 
-class Get_login:
-    def set_up(self):
-        LoginPage().get_url()
-        LoginPage().login(account,password)
- 
-class Room_Page(BasePage):
-                              
+
+class Room_Page(BasePage):                          
     def __init__(self):
         super(Room_Page,self).__init__()                          #封装页面元素
         self.room_manage =(By.CSS_SELECTOR,".menu_wrapper__1zP1l >ul>li:nth-last-child(3)")
@@ -43,10 +36,10 @@ class Room_Page(BasePage):
     def implicity_waiting(self,senonds):            #设置隐式等待
         self.implicitwait(senonds)
 
-if __name__ == "__main__":
-    Get_login().set_up()
-    Room_Page().implicity_waiting(2)
-    Room_Page().add_rooms()
-    Room_Page().sliding_page()        
+# if __name__ == "__main__":
+#     Get_login().set_up()
+#     Room_Page().implicity_waiting(2)
+#     Room_Page().add_rooms()
+#     Room_Page().sliding_page()        
     
     
